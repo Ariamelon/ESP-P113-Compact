@@ -969,7 +969,7 @@ U 1 1 60DC1978
 P 4250 3350
 F 0 "J5" H 4168 3567 50  0000 C CNN
 F 1 "AC_In" H 4168 3476 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 4250 3350 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 4250 3350 50  0001 C CNN
 F 3 "~" H 4250 3350 50  0001 C CNN
 	1    4250 3350
 	-1   0    0    -1  
@@ -1146,6 +1146,28 @@ F 1 "MountingHole" H 7400 4505 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7300 4550 50  0001 C CNN
 F 3 "~" H 7300 4550 50  0001 C CNN
 	1    7300 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Heatsink HS?
+U 1 1 60B00326
+P 7150 2950
+F 0 "HS?" H 7292 3071 50  0000 L CNN
+F 1 "Heatsink" H 7292 2980 50  0000 L CNN
+F 2 "Heatsink:Heatsink_Fischer_SK104-STC-STIC_35x13mm_2xDrill2.5mm" H 7162 2950 50  0001 C CNN
+F 3 "~" H 7162 2950 50  0001 C CNN
+	1    7150 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Heatsink HS?
+U 1 1 60AF0995
+P 3200 2950
+F 0 "HS?" H 3342 3071 50  0000 L CNN
+F 1 "Heatsink" H 3342 2980 50  0000 L CNN
+F 2 "Heatsink:Heatsink_Fischer_SK104-STC-STIC_35x13mm_2xDrill2.5mm" H 3212 2950 50  0001 C CNN
+F 3 "~" H 3212 2950 50  0001 C CNN
+	1    3200 2950
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
