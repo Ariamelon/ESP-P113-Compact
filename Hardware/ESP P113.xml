@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>E:\Documents\GitHub\ESP P113\Hardware\ESP P113.sch</source>
-    <date>05/25/21 13:39:41</date>
+    <source>E:\Documents\GitHub\ESP P113 Compact\Hardware\ESP P113.sch</source>
+    <date>05/26/21 16:55:32</date>
     <tool>Eeschema (5.1.6)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -21,7 +21,7 @@
   <components>
     <comp ref="C1">
       <value>1u</value>
-      <footprint>Capacitor_THT:C_Rect_L26.5mm_W7.0mm_P22.50mm_MKS4</footprint>
+      <footprint>Capacitor_THT:C_Rect_L18.0mm_W5.0mm_P15.00mm_FKS3_FKP3</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -43,17 +43,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60AC42FF</tstamp>
     </comp>
-    <comp ref="C2">
-      <value>100u</value>
-      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60AC66B5</tstamp>
-    </comp>
     <comp ref="C3">
       <value>100u</value>
-      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -61,7 +53,7 @@
     </comp>
     <comp ref="C4">
       <value>100u</value>
-      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -131,14 +123,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60B0F5D9</tstamp>
     </comp>
-    <comp ref="J5">
-      <value>AC_In</value>
-      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60DC1978</tstamp>
-    </comp>
     <comp ref="R3">
       <value>1k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
@@ -149,7 +133,7 @@
     </comp>
     <comp ref="C5">
       <value>1u</value>
-      <footprint>Capacitor_THT:C_Rect_L26.5mm_W7.0mm_P22.50mm_MKS4</footprint>
+      <footprint>Capacitor_THT:C_Rect_L18.0mm_W5.0mm_P15.00mm_FKS3_FKP3</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -173,7 +157,7 @@
     </comp>
     <comp ref="C6">
       <value>100u</value>
-      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -181,7 +165,7 @@
     </comp>
     <comp ref="C7">
       <value>100u</value>
-      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -189,7 +173,7 @@
     </comp>
     <comp ref="C8">
       <value>100u</value>
-      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -259,14 +243,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61BFCDDA</tstamp>
     </comp>
-    <comp ref="PS1">
-      <value>IRM-20-15</value>
-      <footprint>Converter_ACDC:Converter_ACDC_MeanWell_IRM-20-xx_THT</footprint>
-      <datasheet>http://www.meanwell.com/Upload/PDF/IRM-20/IRM-20-SPEC.PDF</datasheet>
-      <libsource lib="Converter_ACDC" part="IRM-20-15" description="15V 1.4A 20W miniature AC-DC module-type power supply MeanWell"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>61E42A20</tstamp>
-    </comp>
     <comp ref="PS2">
       <value>IRM-20-15</value>
       <footprint>Converter_ACDC:Converter_ACDC_MeanWell_IRM-20-xx_THT</footprint>
@@ -275,25 +251,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61E44FA1</tstamp>
     </comp>
-    <comp ref="C10">
-      <value>330u</value>
-      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>61FA7245</tstamp>
-    </comp>
-    <comp ref="C11">
-      <value>330u</value>
-      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>61FB1298</tstamp>
-    </comp>
     <comp ref="L1">
       <value>3u3</value>
-      <footprint>Inductor_SMD:L_Bourns_SRP1245A</footprint>
+      <footprint>Inductor_THT:L_Radial_D12.5mm_P9.00mm_Fastron_09HCP</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -301,31 +261,15 @@
     </comp>
     <comp ref="L2">
       <value>3u3</value>
-      <footprint>Inductor_SMD:L_Bourns_SRP1245A</footprint>
+      <footprint>Inductor_THT:L_Radial_D12.5mm_P9.00mm_Fastron_09HCP</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61FC061D</tstamp>
     </comp>
-    <comp ref="C12">
-      <value>330u</value>
-      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>61FCA895</tstamp>
-    </comp>
-    <comp ref="C13">
-      <value>330u</value>
-      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>61FCAEC2</tstamp>
-    </comp>
     <comp ref="J1">
       <value>L_In</value>
-      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</footprint>
+      <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
@@ -333,7 +277,7 @@
     </comp>
     <comp ref="J2">
       <value>R_In</value>
-      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</footprint>
+      <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
@@ -341,7 +285,7 @@
     </comp>
     <comp ref="J3">
       <value>L_Out</value>
-      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</footprint>
+      <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
@@ -349,7 +293,7 @@
     </comp>
     <comp ref="J4">
       <value>R_Out</value>
-      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</footprint>
+      <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
@@ -357,7 +301,7 @@
     </comp>
     <comp ref="H1">
       <value>Star_Ground</value>
-      <footprint>MountingHole:MountingHole_4.3mm_M4_Pad_Via</footprint>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <sheetpath names="/" tstamps="/"/>
@@ -402,6 +346,134 @@
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6216A5FB</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>330u</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FA7245</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>330u</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FB1298</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>330u</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FCA895</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>330u</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FCAEC2</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>AC_In</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DC1978</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AC66B5</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>621C9F26</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>621CA689</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>621DCFD2</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>621EA352</tstamp>
+    </comp>
+    <comp ref="PS1">
+      <value>IRM-20-15</value>
+      <footprint>Converter_ACDC:Converter_ACDC_MeanWell_IRM-20-xx_THT</footprint>
+      <datasheet>http://www.meanwell.com/Upload/PDF/IRM-20/IRM-20-SPEC.PDF</datasheet>
+      <libsource lib="Converter_ACDC" part="IRM-20-15" description="15V 1.4A 20W miniature AC-DC module-type power supply MeanWell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61E42A20</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>622C1D17</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>622C299E</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6248AF25</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>Fuse_Small</value>
+      <footprint>Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Fuse_Small" description="Fuse, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B148A5</tstamp>
+    </comp>
+    <comp ref="H5">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C80349</tstamp>
     </comp>
   </components>
   <libparts>
@@ -586,6 +658,21 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Device" part="Fuse_Small">
+      <description>Fuse, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Device" part="L_Small">
       <description>Inductor, small symbol</description>
       <docs>~</docs>
@@ -632,6 +719,17 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
     <libpart lib="Mechanical" part="MountingHole_Pad">
       <description>Mounting Hole with connection</description>
       <docs>~</docs>
@@ -665,172 +763,184 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(J5-Pad1)">
-      <node ref="PS2" pin="1"/>
-      <node ref="PS1" pin="1"/>
-      <node ref="J5" pin="1"/>
+    <net code="1" name="Net-(C15-Pad2)">
+      <node ref="PS2" pin="3"/>
+      <node ref="L2" pin="1"/>
+      <node ref="C15" pin="2"/>
     </net>
-    <net code="2" name="Net-(J5-Pad2)">
+    <net code="2" name="Net-(C14-Pad1)">
+      <node ref="PS1" pin="4"/>
+      <node ref="C14" pin="1"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(R10-Pad1)">
+      <node ref="U1" pin="5"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="4" name="Net-(R2-Pad1)">
+      <node ref="U1" pin="3"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="5" name="-15">
+      <node ref="U1" pin="4"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="C17" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="C9" pin="1"/>
+      <node ref="L2" pin="2"/>
+    </net>
+    <net code="6" name="+15">
+      <node ref="C10" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="L1" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="C16" pin="1"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="7" name="Net-(C6-Pad1)">
+      <node ref="U1" pin="6"/>
+      <node ref="C6" pin="1"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="8" name="Net-(C6-Pad2)">
+      <node ref="R11" pin="1"/>
+      <node ref="C6" pin="2"/>
+    </net>
+    <net code="9" name="R_Out">
+      <node ref="R12" pin="2"/>
+      <node ref="J4" pin="1"/>
+      <node ref="R15" pin="2"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="10" name="Net-(F1-Pad2)">
+      <node ref="PS2" pin="1"/>
+      <node ref="F1" pin="2"/>
+      <node ref="PS1" pin="1"/>
+    </net>
+    <net code="11" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="12" name="Net-(J5-Pad2)">
       <node ref="PS1" pin="2"/>
       <node ref="PS2" pin="2"/>
       <node ref="J5" pin="2"/>
     </net>
-    <net code="3" name="Net-(C10-Pad1)">
-      <node ref="L1" pin="1"/>
-      <node ref="C10" pin="1"/>
-      <node ref="PS1" pin="4"/>
+    <net code="13" name="Net-(F1-Pad1)">
+      <node ref="F1" pin="1"/>
+      <node ref="J5" pin="1"/>
     </net>
-    <net code="4" name="Net-(C6-Pad2)">
-      <node ref="C6" pin="2"/>
-      <node ref="R11" pin="1"/>
-    </net>
-    <net code="5" name="Net-(C6-Pad1)">
-      <node ref="C6" pin="1"/>
-      <node ref="U1" pin="6"/>
-      <node ref="R12" pin="1"/>
-    </net>
-    <net code="6" name="Net-(R10-Pad1)">
-      <node ref="U1" pin="5"/>
-      <node ref="R10" pin="1"/>
-    </net>
-    <net code="7" name="Earth">
-      <node ref="C13" pin="1"/>
-      <node ref="H1" pin="1"/>
-      <node ref="R3" pin="2"/>
-      <node ref="J4" pin="2"/>
-      <node ref="J2" pin="2"/>
-      <node ref="J3" pin="2"/>
-      <node ref="R1" pin="2"/>
+    <net code="14" name="Earth">
       <node ref="R9" pin="2"/>
-      <node ref="C12" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="H1" pin="1"/>
       <node ref="J1" pin="2"/>
-      <node ref="C11" pin="1"/>
-      <node ref="C10" pin="2"/>
-      <node ref="R11" pin="2"/>
-      <node ref="PS1" pin="3"/>
       <node ref="PS2" pin="4"/>
-    </net>
-    <net code="8" name="Net-(Q3-Pad3)">
-      <node ref="R15" pin="1"/>
-      <node ref="Q3" pin="3"/>
-    </net>
-    <net code="9" name="Net-(Q4-Pad2)">
-      <node ref="R16" pin="2"/>
-      <node ref="Q4" pin="2"/>
-    </net>
-    <net code="10" name="R_Out">
-      <node ref="R15" pin="2"/>
-      <node ref="R16" pin="1"/>
-      <node ref="J4" pin="1"/>
-      <node ref="R12" pin="2"/>
-    </net>
-    <net code="11" name="Net-(C8-Pad2)">
-      <node ref="Q4" pin="1"/>
-      <node ref="D4" pin="1"/>
-      <node ref="R14" pin="1"/>
-      <node ref="C8" pin="2"/>
-    </net>
-    <net code="12" name="Net-(C7-Pad1)">
-      <node ref="D3" pin="2"/>
-      <node ref="R13" pin="2"/>
-      <node ref="C7" pin="1"/>
-      <node ref="Q3" pin="1"/>
-    </net>
-    <net code="13" name="Net-(Q2-Pad2)">
-      <node ref="Q2" pin="2"/>
-      <node ref="R8" pin="2"/>
-    </net>
-    <net code="14" name="Net-(Q1-Pad3)">
-      <node ref="Q1" pin="3"/>
-      <node ref="R7" pin="1"/>
-    </net>
-    <net code="15" name="Net-(C11-Pad2)">
+      <node ref="R11" pin="2"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C12" pin="2"/>
       <node ref="C11" pin="2"/>
-      <node ref="PS2" pin="3"/>
-      <node ref="L2" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="PS1" pin="3"/>
+      <node ref="C14" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C17" pin="1"/>
+      <node ref="J4" pin="2"/>
     </net>
-    <net code="16" name="+15">
-      <node ref="C9" pin="2"/>
-      <node ref="R5" pin="1"/>
-      <node ref="Q1" pin="2"/>
-      <node ref="C12" pin="1"/>
-      <node ref="L1" pin="2"/>
-      <node ref="Q3" pin="2"/>
-      <node ref="U1" pin="8"/>
-      <node ref="R13" pin="1"/>
+    <net code="15" name="R_In">
+      <node ref="J2" pin="1"/>
+      <node ref="C5" pin="2"/>
     </net>
-    <net code="17" name="-15">
-      <node ref="R6" pin="2"/>
-      <node ref="R14" pin="2"/>
-      <node ref="U1" pin="4"/>
-      <node ref="Q2" pin="3"/>
-      <node ref="C9" pin="1"/>
-      <node ref="Q4" pin="3"/>
-      <node ref="C13" pin="2"/>
-      <node ref="L2" pin="2"/>
+    <net code="16" name="Net-(Q2-Pad2)">
+      <node ref="R8" pin="2"/>
+      <node ref="Q2" pin="2"/>
     </net>
-    <net code="18" name="L_Out">
-      <node ref="J3" pin="1"/>
-      <node ref="R4" pin="2"/>
-      <node ref="R8" pin="1"/>
-      <node ref="R7" pin="2"/>
+    <net code="17" name="Net-(Q1-Pad3)">
+      <node ref="R7" pin="1"/>
+      <node ref="Q1" pin="3"/>
     </net>
-    <net code="19" name="Net-(C4-Pad2)">
-      <node ref="D2" pin="1"/>
-      <node ref="C4" pin="2"/>
-      <node ref="Q2" pin="1"/>
-      <node ref="R6" pin="1"/>
+    <net code="18" name="Net-(Q3-Pad3)">
+      <node ref="Q3" pin="3"/>
+      <node ref="R15" pin="1"/>
     </net>
-    <net code="20" name="Net-(C3-Pad1)">
-      <node ref="C3" pin="1"/>
-      <node ref="D1" pin="2"/>
-      <node ref="R5" pin="2"/>
-      <node ref="Q1" pin="1"/>
+    <net code="19" name="Net-(C7-Pad1)">
+      <node ref="R13" pin="2"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="D3" pin="2"/>
     </net>
-    <net code="21" name="L_In">
+    <net code="20" name="Net-(Q4-Pad2)">
+      <node ref="Q4" pin="2"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="21" name="Net-(C8-Pad2)">
+      <node ref="C8" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="22" name="L_In">
       <node ref="J1" pin="1"/>
       <node ref="C1" pin="2"/>
     </net>
-    <net code="22" name="Net-(C1-Pad1)">
-      <node ref="R1" pin="1"/>
-      <node ref="R2" pin="2"/>
-      <node ref="C1" pin="1"/>
+    <net code="23" name="L_Out">
+      <node ref="R4" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="J3" pin="1"/>
     </net>
-    <net code="23" name="Net-(C2-Pad2)">
-      <node ref="R3" pin="1"/>
-      <node ref="C2" pin="2"/>
+    <net code="24" name="Net-(C3-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R5" pin="2"/>
     </net>
-    <net code="24" name="Net-(R2-Pad1)">
-      <node ref="R2" pin="1"/>
-      <node ref="U1" pin="3"/>
-    </net>
-    <net code="25" name="Net-(C3-Pad2)">
-      <node ref="D1" pin="1"/>
-      <node ref="C3" pin="2"/>
-      <node ref="U1" pin="1"/>
-      <node ref="C4" pin="1"/>
-      <node ref="D2" pin="2"/>
-    </net>
-    <net code="26" name="Net-(C5-Pad1)">
-      <node ref="C5" pin="1"/>
-      <node ref="R10" pin="2"/>
-      <node ref="R9" pin="1"/>
-    </net>
-    <net code="27" name="R_In">
-      <node ref="C5" pin="2"/>
-      <node ref="J2" pin="1"/>
-    </net>
-    <net code="28" name="Net-(C7-Pad2)">
-      <node ref="C7" pin="2"/>
-      <node ref="U1" pin="7"/>
-      <node ref="D3" pin="1"/>
-      <node ref="D4" pin="2"/>
-      <node ref="C8" pin="1"/>
-    </net>
-    <net code="29" name="Net-(C2-Pad1)">
+    <net code="25" name="Net-(C2-Pad1)">
       <node ref="R4" pin="1"/>
       <node ref="C2" pin="1"/>
       <node ref="U1" pin="2"/>
+    </net>
+    <net code="26" name="Net-(C4-Pad2)">
+      <node ref="Q2" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="27" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="28" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="29" name="Net-(C7-Pad2)">
+      <node ref="C8" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="D4" pin="2"/>
+      <node ref="C7" pin="2"/>
+    </net>
+    <net code="30" name="Net-(C5-Pad1)">
+      <node ref="R10" pin="2"/>
+      <node ref="R9" pin="1"/>
+      <node ref="C5" pin="1"/>
     </net>
   </nets>
 </export>

@@ -655,8 +655,6 @@ Wire Wire Line
 	4750 3350 4850 3350
 Connection ~ 4850 3350
 Wire Wire Line
-	4950 3450 4750 3450
-Wire Wire Line
 	5900 1750 6000 1750
 Wire Wire Line
 	5500 1550 6000 1550
@@ -706,7 +704,7 @@ U 1 1 61FBB356
 P 6250 3350
 F 0 "L1" V 6450 3350 50  0000 C CNN
 F 1 "3u3" V 6350 3350 50  0000 C CNN
-F 2 "Inductor_SMD:L_Bourns_SRP1245A" H 6250 3350 50  0001 C CNN
+F 2 "Inductor_THT:L_Radial_D12.5mm_P9.00mm_Fastron_09HCP" H 6250 3350 50  0001 C CNN
 F 3 "~" H 6250 3350 50  0001 C CNN
 	1    6250 3350
 	0    -1   -1   0   
@@ -720,7 +718,7 @@ U 1 1 61FC061D
 P 6250 4150
 F 0 "L2" V 6050 4150 50  0000 C CNN
 F 1 "3u3" V 6150 4150 50  0000 C CNN
-F 2 "Inductor_SMD:L_Bourns_SRP1245A" H 6250 4150 50  0001 C CNN
+F 2 "Inductor_THT:L_Radial_D12.5mm_P9.00mm_Fastron_09HCP" H 6250 4150 50  0001 C CNN
 F 3 "~" H 6250 4150 50  0001 C CNN
 	1    6250 4150
 	0    -1   -1   0   
@@ -968,12 +966,12 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J5
 U 1 1 60DC1978
-P 4550 3350
-F 0 "J5" H 4468 3567 50  0000 C CNN
-F 1 "AC_In" H 4468 3476 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 4550 3350 50  0001 C CNN
-F 3 "~" H 4550 3350 50  0001 C CNN
-	1    4550 3350
+P 4250 3350
+F 0 "J5" H 4168 3567 50  0000 C CNN
+F 1 "AC_In" H 4168 3476 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 4250 3350 50  0001 C CNN
+F 3 "~" H 4250 3350 50  0001 C CNN
+	1    4250 3350
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -1122,6 +1120,32 @@ F 1 "MountingHole" H 7400 4305 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7300 4350 50  0001 C CNN
 F 3 "~" H 7300 4350 50  0001 C CNN
 	1    7300 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse_Small F1
+U 1 1 60B148A5
+P 4650 3350
+F 0 "F1" H 4650 3443 50  0000 C CNN
+F 1 "Fuse_Small" H 4650 3444 50  0001 C CNN
+F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" H 4650 3350 50  0001 C CNN
+F 3 "~" H 4650 3350 50  0001 C CNN
+	1    4650 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3350 4450 3350
+Wire Wire Line
+	4450 3450 4950 3450
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 60C80349
+P 7300 4550
+F 0 "H5" H 7400 4596 50  0000 L CNN
+F 1 "MountingHole" H 7400 4505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7300 4550 50  0001 C CNN
+F 3 "~" H 7300 4550 50  0001 C CNN
+	1    7300 4550
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
