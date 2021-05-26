@@ -5,6 +5,7 @@
 * 25/05/2021: Initial commit.
 * 26/05/2021: Updated to V1.1. Added primary-side fuse, changed inductor to cheaper variant and rearranged components to make board even more compact. Updated BOM to match. Added extra M3 hole in middle of PCB and changed that hole to be the case grounding point instead.
 
+ ## Photos
 ![Schematic](Images/Schem.png)
 ![Top PCB](Images/PCB_Top.png)
 ![Bottom PCB](Images/PCB_Bottom.png)
