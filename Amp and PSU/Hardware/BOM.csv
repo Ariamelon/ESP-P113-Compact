@@ -4,7 +4,7 @@ Ref,Qnty,Value,Mfr. No,Package
 "C9, C10, C11",3,100n,GCM21BR72A104KA37L,0805 X7R capacitor
 "C14, C15, C16, C17",4,220u,EEU-FC1V221LB,"8mm diameter electrolytic, 3.5mm pin spacing"
 "D1, D2, D3, D4",4,,1N4148W-7-F,SOD-123 SMT diode
-"D5, D6",2,,LED_Small,3mm LED
+"D5, D6",2,,LTL-4222,3mm LED
 F1,1,,31.8201,"5 x 20mm fuse, greater than 0.17A"
 "J1, J2, J3, J4",1,,B2B-XH-A(LF)(SN),2 position 2.54mm spacing XH2P JST connector
 J5,1,,1715721,2 position 5mm spacing phoenix terminal block
