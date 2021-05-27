@@ -6,16 +6,9 @@
 * 26/05/2021: Updated to V1.1. Added primary-side fuse, changed inductor to cheaper variant and rearranged components to make board even more compact. Updated BOM to match. Added extra M3 hole in middle of PCB and changed that hole to be the case grounding point instead.
 * 27/05/2021: Updated to V1.2. Slightly changed position of transistors to allow for them to be mounted to an aluminium L-bracket and then to the case. 3mm power LEDs added. Changed output resistors to THT 0.5W versions. Added disclaimer on board.
 
- ## Integrated PSU Photos
+ ## Photos
 ![Schematic](Amp_PSU/Images/Schem.png)
 ![Top PCB](Amp_PSU/Images/PCB_Top.png)
 ![Bottom PCB](Amp_PSU/Images/PCB_Bottom.png)
 ![Top Render](Amp_PSU/Images/Render_Top.png)
 ![Bottom Render](Amp_PSU/Images/Render_Bottom.png)
-
- ## Amp Only Photos
-![Schematic](Amp_Only/Images/Schem.png)
-![Top PCB](Amp_Only/Images/PCB_Top.png)
-![Bottom PCB](Amp_Only/Images/PCB_Bottom.png)
-![Top Render](Amp_Only/Images/Render_Top.png)
-![Bottom Render](Amp_Only/Images/Render_Bottom.png)
