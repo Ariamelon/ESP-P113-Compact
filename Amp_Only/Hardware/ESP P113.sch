@@ -917,10 +917,10 @@ F 3 "~" H 1000 1550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J5
 U 1 1 60B2DBBD
 P 4550 3500
-F 0 "J?" H 4468 3817 50  0000 C CNN
+F 0 "J5" H 4468 3817 50  0000 C CNN
 F 1 "DC_In" H 4468 3726 50  0000 C CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal" H 4550 3500 50  0001 C CNN
 F 3 "~" H 4550 3500 50  0001 C CNN
