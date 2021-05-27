@@ -7,15 +7,15 @@
 * 27/05/2021: Updated to V1.2. Slightly changed position of transistors to allow for them to be mounted to an aluminium L-bracket and then to the case. 3mm power LEDs added. Added amp-only version.
 
  ## Integrated PSU Photos
-![Schematic](Amp and PSU/Images/Schem.png)
-![Top PCB](Amp and PSU/Images/PCB_Top.png)
-![Bottom PCB](Amp and PSU/Images/PCB_Bottom.png)
-![Top Render](Amp and PSU/Images/Render_Top.png)
-![Bottom Render](Amp and PSU/Images/Render_Bottom.png)
+![Schematic](Amp_PSU/Images/Schem.png)
+![Top PCB](Amp_PSU/Images/PCB_Top.png)
+![Bottom PCB](Amp_PSU/Images/PCB_Bottom.png)
+![Top Render](Amp_PSU/Images/Render_Top.png)
+![Bottom Render](Amp_PSU/Images/Render_Bottom.png)
 
  ## Amp Only Photos
-![Schematic](Amp and PSU/Images/Schem.png)
-![Top PCB](Amp Only/Images/PCB_Top.png)
-![Bottom PCB](Amp Only/Images/PCB_Bottom.png)
-![Top Render](Amp Only/Images/Render_Top.png)
-![Bottom Render](Amp Only/Images/Render_Bottom.png)
+![Schematic](Amp_Only/Images/Schem.png)
+![Top PCB](Amp_Only/Images/PCB_Top.png)
+![Bottom PCB](Amp_Only/Images/PCB_Bottom.png)
+![Top Render](Amp_Only/Images/Render_Top.png)
+![Bottom Render](Amp_Only/Images/Render_Bottom.png)
