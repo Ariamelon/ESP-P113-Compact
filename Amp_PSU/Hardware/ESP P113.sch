@@ -47,108 +47,6 @@ Wire Wire Line
 Wire Wire Line
 	9150 2150 9150 2050
 $Comp
-L Converter_ACDC:IRM-20-15 PS2
-U 1 1 61E44FA1
-P 4200 3950
-F 0 "PS2" H 4200 4275 50  0000 C CNN
-F 1 "IRM-20-15" H 4200 4184 50  0000 C CNN
-F 2 "Converter_ACDC:Converter_ACDC_MeanWell_IRM-20-xx_THT" H 4200 3650 50  0001 C CNN
-F 3 "http://www.meanwell.com/Upload/PDF/IRM-20/IRM-20-SPEC.PDF" H 4600 3600 50  0001 C CNN
-	1    4200 3950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4600 3450 4700 3450
-Wire Wire Line
-	4600 3850 4700 3850
-Wire Wire Line
-	4700 3450 4700 3650
-Wire Wire Line
-	3700 3350 3700 3450
-Wire Wire Line
-	3700 3450 3800 3450
-Wire Wire Line
-	3700 3450 3700 4050
-Wire Wire Line
-	3700 4050 3800 4050
-Connection ~ 3700 3450
-Wire Wire Line
-	3600 3250 3600 3850
-Wire Wire Line
-	3600 3250 3800 3250
-Wire Wire Line
-	3600 3850 3800 3850
-Wire Wire Line
-	3500 3250 3600 3250
-Connection ~ 3600 3250
-Wire Wire Line
-	4800 3350 4800 3250
-Wire Wire Line
-	4800 3250 4600 3250
-Wire Wire Line
-	4700 3650 4800 3650
-Wire Wire Line
-	4800 3650 4800 3550
-Connection ~ 4700 3650
-Wire Wire Line
-	4700 3650 4700 3850
-Wire Wire Line
-	4600 4050 4800 4050
-Wire Wire Line
-	4800 4050 4800 3950
-Wire Wire Line
-	4800 3750 4800 3650
-Connection ~ 4800 3650
-$Comp
-L Device:L_Small L1
-U 1 1 61FBB356
-P 5000 3250
-F 0 "L1" V 5200 3250 50  0000 C CNN
-F 1 "4.7u" V 5100 3250 50  0000 C CNN
-F 2 "Inductor_SMD:L_Taiyo-Yuden_NR-80xx_HandSoldering" H 5000 3250 50  0001 C CNN
-F 3 "~" H 5000 3250 50  0001 C CNN
-	1    5000 3250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4900 3250 4800 3250
-Connection ~ 4800 3250
-$Comp
-L Device:L_Small L2
-U 1 1 61FC061D
-P 5000 4050
-F 0 "L2" V 4800 4050 50  0000 C CNN
-F 1 "4.7u" V 4900 4050 50  0000 C CNN
-F 2 "Inductor_SMD:L_Taiyo-Yuden_NR-80xx_HandSoldering" H 5000 4050 50  0001 C CNN
-F 3 "~" H 5000 4050 50  0001 C CNN
-	1    5000 4050
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4900 4050 4800 4050
-Connection ~ 4800 4050
-Wire Wire Line
-	4800 3650 5200 3650
-Wire Wire Line
-	5200 3650 5200 3750
-Wire Wire Line
-	5200 3650 5200 3550
-Connection ~ 5200 3650
-Wire Wire Line
-	5200 3950 5200 4050
-Wire Wire Line
-	5200 4050 5100 4050
-Wire Wire Line
-	5200 3350 5200 3250
-Wire Wire Line
-	5200 3250 5100 3250
-Connection ~ 5200 3250
-Text GLabel 5300 4050 2    50   Input ~ 0
--15
-Wire Wire Line
-	5300 4050 5200 4050
-Connection ~ 5200 4050
-$Comp
 L Device:C_Small C9
 U 1 1 6216A5FB
 P 1550 3600
@@ -158,61 +56,6 @@ F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1550 3600 50  
 F 3 "~" H 1550 3600 50  0001 C CNN
 	1    1550 3600
 	-1   0    0    1   
-$EndComp
-$Comp
-L Device:CP_Small C14
-U 1 1 61FA7245
-P 4800 3450
-F 0 "C14" H 4888 3496 50  0000 L CNN
-F 1 "220u" H 4888 3405 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 4800 3450 50  0001 C CNN
-F 3 "~" H 4800 3450 50  0001 C CNN
-	1    4800 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP_Small C15
-U 1 1 61FB1298
-P 4800 3850
-F 0 "C15" H 4888 3896 50  0000 L CNN
-F 1 "220u" H 4888 3805 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 4800 3850 50  0001 C CNN
-F 3 "~" H 4800 3850 50  0001 C CNN
-	1    4800 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP_Small C16
-U 1 1 61FCA895
-P 5200 3450
-F 0 "C16" H 5288 3496 50  0000 L CNN
-F 1 "220u" H 5288 3405 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 5200 3450 50  0001 C CNN
-F 3 "~" H 5200 3450 50  0001 C CNN
-	1    5200 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP_Small C17
-U 1 1 61FCAEC2
-P 5200 3850
-F 0 "C17" H 5288 3896 50  0000 L CNN
-F 1 "220u" H 5288 3805 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 5200 3850 50  0001 C CNN
-F 3 "~" H 5200 3850 50  0001 C CNN
-	1    5200 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J5
-U 1 1 60DC1978
-P 3000 3250
-F 0 "J5" H 2918 3467 50  0000 C CNN
-F 1 "AC_In" H 2918 3376 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 3000 3250 50  0001 C CNN
-F 3 "~" H 3000 3250 50  0001 C CNN
-	1    3000 3250
-	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C10
@@ -307,125 +150,6 @@ Wire Wire Line
 	2300 3200 2500 3200
 Wire Wire Line
 	2300 4000 2500 4000
-$Comp
-L Converter_ACDC:IRM-20-15 PS1
-U 1 1 61E42A20
-P 4200 3350
-F 0 "PS1" H 4200 3675 50  0000 C CNN
-F 1 "IRM-20-15" H 4200 3584 50  0000 C CNN
-F 2 "Converter_ACDC:Converter_ACDC_MeanWell_IRM-20-xx_THT" H 4200 3050 50  0001 C CNN
-F 3 "http://www.meanwell.com/Upload/PDF/IRM-20/IRM-20-SPEC.PDF" H 4600 3000 50  0001 C CNN
-	1    4200 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Fuse_Small F1
-U 1 1 60B148A5
-P 3400 3250
-F 0 "F1" H 3400 3343 50  0000 C CNN
-F 1 "Fuse_Small" H 3400 3344 50  0001 C CNN
-F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" H 3400 3250 50  0001 C CNN
-F 3 "~" H 3400 3250 50  0001 C CNN
-	1    3400 3250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3300 3250 3200 3250
-Wire Wire Line
-	3200 3350 3700 3350
-Wire Wire Line
-	5300 3250 5200 3250
-Text GLabel 5300 3250 2    50   Input ~ 0
-+15
-$Comp
-L Mechanical:MountingHole H5
-U 1 1 60C80349
-P 6050 4450
-F 0 "H5" H 6150 4496 50  0000 L CNN
-F 1 "MountingHole" H 6150 4405 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 6050 4450 50  0001 C CNN
-F 3 "~" H 6050 4450 50  0001 C CNN
-	1    6050 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 6248AF25
-P 6050 4250
-F 0 "H4" H 6150 4296 50  0000 L CNN
-F 1 "MountingHole" H 6150 4205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 6050 4250 50  0001 C CNN
-F 3 "~" H 6050 4250 50  0001 C CNN
-	1    6050 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 622C299E
-P 6050 4050
-F 0 "H3" H 6150 4096 50  0000 L CNN
-F 1 "MountingHole" H 6150 4005 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 6050 4050 50  0001 C CNN
-F 3 "~" H 6050 4050 50  0001 C CNN
-	1    6050 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 622C1D17
-P 6050 3850
-F 0 "H2" H 6150 3896 50  0000 L CNN
-F 1 "MountingHole" H 6150 3805 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 6050 3850 50  0001 C CNN
-F 3 "~" H 6050 3850 50  0001 C CNN
-	1    6050 3850
-	1    0    0    -1  
-$EndComp
-Connection ~ 5800 3650
-Wire Wire Line
-	5900 3650 5800 3650
-$Comp
-L Mechanical:MountingHole_Pad H1
-U 1 1 620B9170
-P 6000 3650
-F 0 "H1" V 5954 3800 50  0000 L CNN
-F 1 "Star_Ground" V 6045 3800 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 6000 3650 50  0001 C CNN
-F 3 "~" H 6000 3650 50  0001 C CNN
-	1    6000 3650
-	0    1    1    0   
-$EndComp
-Connection ~ 5600 3650
-Wire Wire Line
-	5800 3650 5600 3650
-Wire Wire Line
-	5800 3750 5800 3650
-$Comp
-L power:Earth #PWR0102
-U 1 1 620B131F
-P 5800 3750
-F 0 "#PWR0102" H 5800 3500 50  0001 C CNN
-F 1 "Earth" H 5800 3600 50  0001 C CNN
-F 2 "" H 5800 3750 50  0001 C CNN
-F 3 "~" H 5800 3750 50  0001 C CNN
-	1    5800 3750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5600 3650 5200 3650
-Wire Wire Line
-	5600 3750 5600 3650
-$Comp
-L power:GND #PWR0101
-U 1 1 61FE8602
-P 5600 3750
-F 0 "#PWR0101" H 5600 3500 50  0001 C CNN
-F 1 "GND" H 5605 3577 50  0000 C CNN
-F 2 "" H 5600 3750 50  0001 C CNN
-F 3 "" H 5600 3750 50  0001 C CNN
-	1    5600 3750
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:CP_Small C2
 U 1 1 60AC66B5
@@ -668,7 +392,7 @@ U 1 1 61BFCDA7
 P 7300 1800
 F 0 "R16" H 7359 1846 50  0000 L CNN
 F 1 "10" H 7359 1755 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7300 1800 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 7300 1800 50  0001 C CNN
 F 3 "~" H 7300 1800 50  0001 C CNN
 	1    7300 1800
 	1    0    0    -1  
@@ -679,7 +403,7 @@ U 1 1 61BFCDA1
 P 7300 1500
 F 0 "R15" H 7359 1546 50  0000 L CNN
 F 1 "10" H 7359 1455 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7300 1500 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 7300 1500 50  0001 C CNN
 F 3 "~" H 7300 1500 50  0001 C CNN
 	1    7300 1500
 	1    0    0    -1  
@@ -984,7 +708,7 @@ U 1 1 60AE789B
 P 3500 1800
 F 0 "R8" H 3559 1846 50  0000 L CNN
 F 1 "10" H 3559 1755 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3500 1800 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3500 1800 50  0001 C CNN
 F 3 "~" H 3500 1800 50  0001 C CNN
 	1    3500 1800
 	1    0    0    -1  
@@ -995,7 +719,7 @@ U 1 1 60AE4303
 P 3500 1500
 F 0 "R7" H 3559 1546 50  0000 L CNN
 F 1 "10" H 3559 1455 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3500 1500 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3500 1500 50  0001 C CNN
 F 3 "~" H 3500 1500 50  0001 C CNN
 	1    3500 1500
 	1    0    0    -1  
@@ -1148,63 +872,29 @@ F 3 "~" H 1000 1550 50  0001 C CNN
 	1    1000 1550
 	0    1    1    0   
 $EndComp
-Text GLabel 7100 3100 2    50   Input ~ 0
-+15
-Text GLabel 7100 4500 2    50   Input ~ 0
--15
 $Comp
-L power:GND #PWR0104
-U 1 1 60B99889
-P 7300 3900
-F 0 "#PWR0104" H 7300 3650 50  0001 C CNN
-F 1 "GND" H 7305 3727 50  0000 C CNN
-F 2 "" H 7300 3900 50  0001 C CNN
-F 3 "" H 7300 3900 50  0001 C CNN
-	1    7300 3900
-	1    0    0    -1  
+L Connector_Generic:Conn_01x02 J5
+U 1 1 60DC1978
+P 3000 3350
+F 0 "J5" H 2918 3567 50  0000 C CNN
+F 1 "AC_In" H 2918 3476 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 3000 3350 50  0001 C CNN
+F 3 "~" H 3000 3350 50  0001 C CNN
+	1    3000 3350
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7000 3200 7000 3100
-Wire Wire Line
-	7000 3100 7100 3100
+	3300 3250 3200 3250
 $Comp
-L Device:R_Small R17
-U 1 1 60BA35FA
-P 7000 3300
-F 0 "R17" H 7059 3346 50  0000 L CNN
-F 1 "1k" H 7059 3255 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7000 3300 50  0001 C CNN
-F 3 "~" H 7000 3300 50  0001 C CNN
-	1    7000 3300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7000 3400 7000 3500
-Wire Wire Line
-	7000 3700 7000 3800
-Wire Wire Line
-	7000 4200 7000 4100
-Wire Wire Line
-	7000 3900 7000 3800
-Connection ~ 7000 3800
-Wire Wire Line
-	7100 4500 7000 4500
-Wire Wire Line
-	7000 4500 7000 4400
-Wire Wire Line
-	7300 3900 7300 3800
-Wire Wire Line
-	7000 3800 7300 3800
-$Comp
-L Device:R_Small R18
-U 1 1 60BDDB1D
-P 7000 4000
-F 0 "R18" H 7059 4046 50  0000 L CNN
-F 1 "1k" H 7059 3955 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7000 4000 50  0001 C CNN
-F 3 "~" H 7000 4000 50  0001 C CNN
-	1    7000 4000
-	1    0    0    -1  
+L Device:LED_Small D6
+U 1 1 60BDE217
+P 7000 4300
+F 0 "D6" V 7000 4230 50  0000 R CNN
+F 1 "LED" V 6955 4230 50  0001 R CNN
+F 2 "LED_THT:LED_D3.0mm" V 7000 4300 50  0001 C CNN
+F 3 "~" V 7000 4300 50  0001 C CNN
+	1    7000 4300
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:LED_Small D5
@@ -1218,14 +908,324 @@ F 3 "~" V 7000 3600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED_Small D6
-U 1 1 60BDE217
-P 7000 4300
-F 0 "D6" V 7000 4230 50  0000 R CNN
-F 1 "LED" V 6955 4230 50  0001 R CNN
-F 2 "LED_THT:LED_D3.0mm" V 7000 4300 50  0001 C CNN
-F 3 "~" V 7000 4300 50  0001 C CNN
-	1    7000 4300
+L Device:R_Small R18
+U 1 1 60BDDB1D
+P 7000 4000
+F 0 "R18" H 7059 4046 50  0000 L CNN
+F 1 "1k" H 7059 3955 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7000 4000 50  0001 C CNN
+F 3 "~" H 7000 4000 50  0001 C CNN
+	1    7000 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 3800 7300 3800
+Wire Wire Line
+	7300 3900 7300 3800
+Wire Wire Line
+	7000 4500 7000 4400
+Wire Wire Line
+	7100 4500 7000 4500
+Connection ~ 7000 3800
+Wire Wire Line
+	7000 3900 7000 3800
+Wire Wire Line
+	7000 4200 7000 4100
+Wire Wire Line
+	7000 3700 7000 3800
+Wire Wire Line
+	7000 3400 7000 3500
+$Comp
+L Device:R_Small R17
+U 1 1 60BA35FA
+P 7000 3300
+F 0 "R17" H 7059 3346 50  0000 L CNN
+F 1 "1k" H 7059 3255 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7000 3300 50  0001 C CNN
+F 3 "~" H 7000 3300 50  0001 C CNN
+	1    7000 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 3100 7100 3100
+Wire Wire Line
+	7000 3200 7000 3100
+$Comp
+L power:GND #PWR0104
+U 1 1 60B99889
+P 7300 3900
+F 0 "#PWR0104" H 7300 3650 50  0001 C CNN
+F 1 "GND" H 7305 3727 50  0000 C CNN
+F 2 "" H 7300 3900 50  0001 C CNN
+F 3 "" H 7300 3900 50  0001 C CNN
+	1    7300 3900
+	1    0    0    -1  
+$EndComp
+Text GLabel 7100 4500 2    50   Input ~ 0
+-15
+Text GLabel 7100 3100 2    50   Input ~ 0
++15
+$Comp
+L power:GND #PWR0101
+U 1 1 61FE8602
+P 5600 3750
+F 0 "#PWR0101" H 5600 3500 50  0001 C CNN
+F 1 "GND" H 5605 3577 50  0000 C CNN
+F 2 "" H 5600 3750 50  0001 C CNN
+F 3 "" H 5600 3750 50  0001 C CNN
+	1    5600 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3750 5600 3650
+Wire Wire Line
+	5600 3650 5200 3650
+$Comp
+L power:Earth #PWR0102
+U 1 1 620B131F
+P 5800 3750
+F 0 "#PWR0102" H 5800 3500 50  0001 C CNN
+F 1 "Earth" H 5800 3600 50  0001 C CNN
+F 2 "" H 5800 3750 50  0001 C CNN
+F 3 "~" H 5800 3750 50  0001 C CNN
+	1    5800 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3750 5800 3650
+Wire Wire Line
+	5800 3650 5600 3650
+Connection ~ 5600 3650
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 620B9170
+P 6000 3650
+F 0 "H1" V 5954 3800 50  0000 L CNN
+F 1 "Star_Ground" V 6045 3800 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 6000 3650 50  0001 C CNN
+F 3 "~" H 6000 3650 50  0001 C CNN
+	1    6000 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5900 3650 5800 3650
+Connection ~ 5800 3650
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 622C1D17
+P 6050 3850
+F 0 "H2" H 6150 3896 50  0000 L CNN
+F 1 "MountingHole" H 6150 3805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 6050 3850 50  0001 C CNN
+F 3 "~" H 6050 3850 50  0001 C CNN
+	1    6050 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 622C299E
+P 6050 4050
+F 0 "H3" H 6150 4096 50  0000 L CNN
+F 1 "MountingHole" H 6150 4005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 6050 4050 50  0001 C CNN
+F 3 "~" H 6050 4050 50  0001 C CNN
+	1    6050 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 6248AF25
+P 6050 4250
+F 0 "H4" H 6150 4296 50  0000 L CNN
+F 1 "MountingHole" H 6150 4205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 6050 4250 50  0001 C CNN
+F 3 "~" H 6050 4250 50  0001 C CNN
+	1    6050 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 60C80349
+P 6050 4450
+F 0 "H5" H 6150 4496 50  0000 L CNN
+F 1 "MountingHole" H 6150 4405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 6050 4450 50  0001 C CNN
+F 3 "~" H 6050 4450 50  0001 C CNN
+	1    6050 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 5300 3250 2    50   Input ~ 0
++15
+Wire Wire Line
+	5300 3250 5200 3250
+Wire Wire Line
+	3200 3350 3700 3350
+$Comp
+L Device:Fuse_Small F1
+U 1 1 60B148A5
+P 3400 3250
+F 0 "F1" H 3400 3343 50  0000 C CNN
+F 1 "Fuse_Small" H 3400 3344 50  0001 C CNN
+F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" H 3400 3250 50  0001 C CNN
+F 3 "~" H 3400 3250 50  0001 C CNN
+	1    3400 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Converter_ACDC:IRM-20-15 PS1
+U 1 1 61E42A20
+P 4200 3350
+F 0 "PS1" H 4200 3675 50  0000 C CNN
+F 1 "IRM-20-15" H 4200 3584 50  0000 C CNN
+F 2 "Converter_ACDC:Converter_ACDC_MeanWell_IRM-20-xx_THT" H 4200 3050 50  0001 C CNN
+F 3 "http://www.meanwell.com/Upload/PDF/IRM-20/IRM-20-SPEC.PDF" H 4600 3000 50  0001 C CNN
+	1    4200 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C17
+U 1 1 61FCAEC2
+P 5200 3850
+F 0 "C17" H 5288 3896 50  0000 L CNN
+F 1 "220u" H 5288 3805 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 5200 3850 50  0001 C CNN
+F 3 "~" H 5200 3850 50  0001 C CNN
+	1    5200 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C16
+U 1 1 61FCA895
+P 5200 3450
+F 0 "C16" H 5288 3496 50  0000 L CNN
+F 1 "220u" H 5288 3405 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 5200 3450 50  0001 C CNN
+F 3 "~" H 5200 3450 50  0001 C CNN
+	1    5200 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C15
+U 1 1 61FB1298
+P 4800 3850
+F 0 "C15" H 4888 3896 50  0000 L CNN
+F 1 "220u" H 4888 3805 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 4800 3850 50  0001 C CNN
+F 3 "~" H 4800 3850 50  0001 C CNN
+	1    4800 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C14
+U 1 1 61FA7245
+P 4800 3450
+F 0 "C14" H 4888 3496 50  0000 L CNN
+F 1 "220u" H 4888 3405 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 4800 3450 50  0001 C CNN
+F 3 "~" H 4800 3450 50  0001 C CNN
+	1    4800 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 5200 4050
+Wire Wire Line
+	5300 4050 5200 4050
+Text GLabel 5300 4050 2    50   Input ~ 0
+-15
+Connection ~ 5200 3250
+Wire Wire Line
+	5200 3250 5100 3250
+Wire Wire Line
+	5200 3350 5200 3250
+Wire Wire Line
+	5200 4050 5100 4050
+Wire Wire Line
+	5200 3950 5200 4050
+Connection ~ 5200 3650
+Wire Wire Line
+	5200 3650 5200 3550
+Wire Wire Line
+	5200 3650 5200 3750
+Wire Wire Line
+	4800 3650 5200 3650
+Connection ~ 4800 4050
+Wire Wire Line
+	4900 4050 4800 4050
+$Comp
+L Device:L_Small L2
+U 1 1 61FC061D
+P 5000 4050
+F 0 "L2" V 4800 4050 50  0000 C CNN
+F 1 "4.7u" V 4900 4050 50  0000 C CNN
+F 2 "Inductor_SMD:L_Taiyo-Yuden_NR-80xx_HandSoldering" H 5000 4050 50  0001 C CNN
+F 3 "~" H 5000 4050 50  0001 C CNN
+	1    5000 4050
 	0    -1   -1   0   
+$EndComp
+Connection ~ 4800 3250
+Wire Wire Line
+	4900 3250 4800 3250
+$Comp
+L Device:L_Small L1
+U 1 1 61FBB356
+P 5000 3250
+F 0 "L1" V 5200 3250 50  0000 C CNN
+F 1 "4.7u" V 5100 3250 50  0000 C CNN
+F 2 "Inductor_SMD:L_Taiyo-Yuden_NR-80xx_HandSoldering" H 5000 3250 50  0001 C CNN
+F 3 "~" H 5000 3250 50  0001 C CNN
+	1    5000 3250
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4800 3650
+Wire Wire Line
+	4800 3750 4800 3650
+Wire Wire Line
+	4800 4050 4800 3950
+Wire Wire Line
+	4600 4050 4800 4050
+Wire Wire Line
+	4700 3650 4700 3850
+Connection ~ 4700 3650
+Wire Wire Line
+	4800 3650 4800 3550
+Wire Wire Line
+	4700 3650 4800 3650
+Wire Wire Line
+	4800 3250 4600 3250
+Wire Wire Line
+	4800 3350 4800 3250
+Connection ~ 3600 3250
+Wire Wire Line
+	3500 3250 3600 3250
+Wire Wire Line
+	3600 3850 3800 3850
+Wire Wire Line
+	3600 3250 3800 3250
+Wire Wire Line
+	3600 3250 3600 3850
+Connection ~ 3700 3450
+Wire Wire Line
+	3700 4050 3800 4050
+Wire Wire Line
+	3700 3450 3700 4050
+Wire Wire Line
+	3700 3450 3800 3450
+Wire Wire Line
+	3700 3350 3700 3450
+Wire Wire Line
+	4700 3450 4700 3650
+Wire Wire Line
+	4600 3850 4700 3850
+Wire Wire Line
+	4600 3450 4700 3450
+$Comp
+L Converter_ACDC:IRM-20-15 PS2
+U 1 1 61E44FA1
+P 4200 3950
+F 0 "PS2" H 4200 4275 50  0000 C CNN
+F 1 "IRM-20-15" H 4200 4184 50  0000 C CNN
+F 2 "Converter_ACDC:Converter_ACDC_MeanWell_IRM-20-xx_THT" H 4200 3650 50  0001 C CNN
+F 3 "http://www.meanwell.com/Upload/PDF/IRM-20/IRM-20-SPEC.PDF" H 4600 3600 50  0001 C CNN
+	1    4200 3950
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
