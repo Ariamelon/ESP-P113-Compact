@@ -1635,7 +1635,7 @@ U 1 1 60D33A75
 P 4750 3650
 F 0 "J7" H 4668 3867 50  0000 C CNN
 F 1 "AC_In" H 4668 3776 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 4750 3650 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 4750 3650 50  0001 C CNN
 F 3 "~" H 4750 3650 50  0001 C CNN
 	1    4750 3650
 	-1   0    0    -1  
