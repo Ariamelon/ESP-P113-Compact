@@ -94,19 +94,6 @@ F 3 "~" V 1250 4550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J5
-U 1 1 60DC1978
-P 4450 3750
-F 0 "J5" H 4400 4050 50  0000 C CNN
-F 1 "AC_In" H 4400 3950 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal" H 4450 3750 50  0001 C CNN
-F 3 "~" H 4450 3750 50  0001 C CNN
-	1    4450 3750
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4750 3750 4650 3750
-$Comp
 L Mechanical:MountingHole H2
 U 1 1 622C1D17
 P 9700 3900
@@ -148,17 +135,6 @@ F 1 "MountingHole" H 9800 3655 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9700 3700 50  0001 C CNN
 F 3 "~" H 9700 3700 50  0001 C CNN
 	1    9700 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDREF #PWR09
-U 1 1 60C8A29C
-P 4750 3950
-F 0 "#PWR09" H 4750 3700 50  0001 C CNN
-F 1 "GNDREF" H 4755 3777 50  0000 C CNN
-F 2 "" H 4750 3950 50  0001 C CNN
-F 3 "" H 4750 3950 50  0001 C CNN
-	1    4750 3950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1257,30 +1233,6 @@ Text GLabel 4650 900  2    50   Input ~ 0
 +15
 Wire Wire Line
 	5050 4250 5050 3650
-Connection ~ 5050 3650
-Connection ~ 4950 3850
-$Comp
-L Mechanical:MountingHole_Pad H5
-U 1 1 6105B2FD
-P 9650 4500
-F 0 "H5" V 9604 4650 50  0000 L CNN
-F 1 "MountingHole_Pad" V 9695 4650 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9650 4500 50  0001 C CNN
-F 3 "~" H 9650 4500 50  0001 C CNN
-	1    9650 4500
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GNDPWR #PWR0101
-U 1 1 6105CB6D
-P 9550 4500
-F 0 "#PWR0101" H 9550 4300 50  0001 C CNN
-F 1 "GNDPWR" H 9554 4346 50  0000 C CNN
-F 2 "" H 9550 4450 50  0001 C CNN
-F 3 "" H 9550 4450 50  0001 C CNN
-	1    9550 4500
-	1    0    0    -1  
-$EndComp
 $Comp
 L Converter_ACDC:IRM-20-24 PS1
 U 1 1 61E42A20
@@ -1395,39 +1347,8 @@ F 3 "~" H 5350 4250 50  0001 C CNN
 	1    5350 4250
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:C_Small C26
-U 1 1 60D41E0A
-P 8650 4050
-F 0 "C26" V 8421 4050 50  0000 C CNN
-F 1 "10nF" V 8512 4050 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D16.0mm_W5.0mm_P10.00mm" H 8650 4050 50  0001 C CNN
-F 3 "~" H 8650 4050 50  0001 C CNN
-	1    8650 4050
-	0    1    1    0   
-$EndComp
 Text GLabel 7750 4450 2    50   Input ~ 0
 -15
-Connection ~ 8450 4050
-Wire Wire Line
-	8450 4050 8550 4050
-$Comp
-L power:GNDREF #PWR012
-U 1 1 60D474EF
-P 8850 4150
-F 0 "#PWR012" H 8850 3900 50  0001 C CNN
-F 1 "GNDREF" H 8855 3977 50  0000 C CNN
-F 2 "" H 8850 4150 50  0001 C CNN
-F 3 "" H 8850 4150 50  0001 C CNN
-	1    8850 4150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8450 4050 8450 4150
-Wire Wire Line
-	8850 4150 8850 4050
-Wire Wire Line
-	8850 4050 8750 4050
 $Comp
 L Converter_ACDC:IRM-20-24 PS2
 U 1 1 61E44FA1
@@ -1594,7 +1515,7 @@ Connection ~ 6450 4050
 Wire Wire Line
 	6450 4050 6450 3950
 Wire Wire Line
-	8050 4050 8450 4050
+	8050 4050 8350 4050
 Connection ~ 8050 4050
 $Comp
 L Device:CP_Small C24
@@ -1610,30 +1531,20 @@ $EndComp
 $Comp
 L power:GNDPWR #PWR011
 U 1 1 60C88A62
-P 8450 4150
-F 0 "#PWR011" H 8450 3950 50  0001 C CNN
-F 1 "GNDPWR" H 8454 3996 50  0000 C CNN
-F 2 "" H 8450 4100 50  0001 C CNN
-F 3 "" H 8450 4100 50  0001 C CNN
-	1    8450 4150
+P 8350 4150
+F 0 "#PWR011" H 8350 3950 50  0001 C CNN
+F 1 "GNDPWR" H 8354 3996 50  0000 C CNN
+F 2 "" H 8350 4100 50  0001 C CNN
+F 3 "" H 8350 4100 50  0001 C CNN
+	1    8350 4150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4750 3750 4750 3950
 Wire Wire Line
 	4950 4450 5150 4450
 Wire Wire Line
 	5050 4250 5150 4250
 Wire Wire Line
-	5050 3650 5150 3650
-Wire Wire Line
 	4950 3850 5150 3850
-Wire Wire Line
-	4650 3650 5050 3650
-Wire Wire Line
-	4650 3850 4950 3850
-Wire Wire Line
-	4950 3850 4950 4450
 $Comp
 L Switch:SW_SPST SW1
 U 1 1 612D5881
@@ -1657,10 +1568,10 @@ F 3 "~" H 7700 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J7
+L Connector_Generic:Conn_01x02 J6
 U 1 1 612DBFA6
 P 7750 3200
-F 0 "J7" V 7622 3280 50  0000 L CNN
+F 0 "J6" V 7622 3280 50  0000 L CNN
 F 1 "Gain_R_Ex" V 7713 3280 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 7750 3200 50  0001 C CNN
 F 3 "~" H 7750 3200 50  0001 C CNN
@@ -1689,10 +1600,10 @@ Wire Wire Line
 Wire Wire Line
 	3350 2800 3350 2900
 $Comp
-L Connector_Generic:Conn_01x02 J6
+L Connector_Generic:Conn_01x02 J5
 U 1 1 6135A97B
 P 3200 3200
-F 0 "J6" V 3072 3280 50  0000 L CNN
+F 0 "J5" V 3072 3280 50  0000 L CNN
 F 1 "Gain_L_Ex" V 3163 3280 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 3200 3200 50  0001 C CNN
 F 3 "~" H 3200 3200 50  0001 C CNN
@@ -1709,4 +1620,27 @@ Connection ~ 3350 2900
 Wire Wire Line
 	2950 3000 2950 2900
 Connection ~ 2950 2900
+Wire Wire Line
+	8350 4150 8350 4050
+Wire Wire Line
+	4950 3650 5050 3650
+Connection ~ 5050 3650
+Wire Wire Line
+	5050 3650 5150 3650
+Wire Wire Line
+	4950 3850 4950 4450
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 60D33A75
+P 4750 3650
+F 0 "J7" H 4668 3867 50  0000 C CNN
+F 1 "AC_In" H 4668 3776 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 4750 3650 50  0001 C CNN
+F 3 "~" H 4750 3650 50  0001 C CNN
+	1    4750 3650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 3750 4950 3850
+Connection ~ 4950 3850
 $EndSCHEMATC
