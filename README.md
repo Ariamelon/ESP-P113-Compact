@@ -12,9 +12,9 @@
 * 04/06/2021: Updated to V3.0. New layout with (hopefully) accurate measurements as drawings of case to be used have been received. Changed PSU to RAC20-15DK to save space and removed varistor. 1A fuse will be used instead of 3.15A. Output BJTs changed to MJE15028/29s as they offer slightly better simulated distortion. The gain resistors have been changed to 620R/6k2 and R2 has been changed to 1k1 to allow for gain values of 1.51 and 6.64. The CLCLC PSU filter has been simulated in LTspice and values were chosen that would not cause ringing. The DC protection and muting circuit from AMB has been added to protect the headphone out. On-board Y2 capacitor has been added.
 
  ## Photos
-![Schematic](Amp_PSU/Images/Schem.svg)
-![PCB Traces](Amp_PSU/Images/PCB_Traces.png)
-![Top PCB](Amp_PSU/Images/PCB_Top.png)
-![Bottom PCB](Amp_PSU/Images/PCB_Bottom.png)
-![Top Render](Amp_PSU/Images/Render_Top.png)
-![Bottom Render](Amp_PSU/Images/Render_Bottom.png)
+![Schematic](Images/Schem.svg)
+![PCB Traces](Images/PCB_Traces.png)
+![Top PCB](Images/PCB_Top.png)
+![Bottom PCB](Images/PCB_Bottom.png)
+![Top Render](Images/Render_Top.png)
+![Bottom Render](Images/Render_Bottom.png)
