@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ESP-P113)(type Legacy)(uri ${KIPRJMOD}/ESP-P113.lib)(options "")(descr ""))
+)
